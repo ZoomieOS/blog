@@ -1,9 +1,10 @@
-import {useTranslation} from "react-i18next";
+import { useTranslation } from 'react-i18next'
+import { type ReactElement } from 'react'
 
-const AboutPage = () => {
-    const {t} = useTranslation("about");
+const AboutPage = (): ReactElement => {
+  const { t } = useTranslation('about')
 
-    return <h1>{t('title')}</h1>
+  return <h1>{t('title')}</h1>
 }
 
-export default AboutPage;
+export default AboutPage
