@@ -2,5 +2,9 @@
   "lang": "lang",
   "link-about-label": "link-about-label",
   "link-main-label": "link-main-label",
-  "title": "title"
+  "not-found-page": "not-found-page",
+  "reload-page": "reload-page",
+  "something-wrong": "something-wrong",
+  "title": "title",
+  "toggle": "toggle"
 }

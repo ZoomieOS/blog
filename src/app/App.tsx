@@ -1,9 +1,9 @@
 import { classNames } from 'shared/lib/classNames/classNames'
 // Hooks
-import { useTheme } from 'app/provider/ThemeProvider'
+import { useTheme } from 'app/providers/ThemeProvider'
 // Static
 import './styles/index.scss'
-import { AppRouter } from 'app/provider/router'
+import { AppRouter } from 'app/providers/router'
 import { Navbar } from 'widgets/Navbar'
 import { Sidebar } from 'widgets/Sidebar'
 import { type ReactElement, Suspense } from 'react'

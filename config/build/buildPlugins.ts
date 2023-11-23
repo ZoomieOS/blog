@@ -13,6 +13,7 @@ export function buildPlugins ({ paths, isDev }: BuildOptions): webpack.WebpackPl
       filename: 'css/[name].[contenthash:8].css',
       chunkFilename: 'css/[name].[contenthash:8].css'
     }),
+    new webpack.HotModuleReplacementPlugin(),
     new webpack.DefinePlugin({
       __IS__DEV__: isDev
     })
