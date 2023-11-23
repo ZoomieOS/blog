@@ -2,5 +2,8 @@
   "lang": "EN",
   "link-about-label": "About",
   "link-main-label": "Main",
-  "toggle": "Toggle"
+  "toggle": "Toggle",
+  "not-found-page": "Page not found",
+  "something-wrong": "Ooops... Something wrong :(",
+  "reload-page": "Refresh page"
 }

@@ -1,7 +1,7 @@
 // libraries
 import { type FC, type PropsWithChildren, useMemo, useState } from 'react'
 // contexts
-import { ThemeContext, LOCAL_STORAGE_THEME_KEY, Theme } from 'app/provider/ThemeProvider/lib/ThemeContext'
+import { ThemeContext, LOCAL_STORAGE_THEME_KEY, Theme } from 'app/providers/ThemeProvider/lib/ThemeContext'
 
 // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
 const defaultTheme = (localStorage.getItem(LOCAL_STORAGE_THEME_KEY) as Theme || Theme.LIGHT)

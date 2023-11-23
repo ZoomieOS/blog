@@ -2,5 +2,8 @@
   "lang": "RU",
   "link-about-label": "О нас",
   "link-main-label": "Главная",
-  "toggle": "Расскрыть"
+  "toggle": "Расскрыть",
+  "not-found-page": "Страница не найдена",
+  "something-wrong": "Упс... что-то пошло не так :(",
+  "reload-page": "Перезагрузить страницу"
 }
