@@ -3,7 +3,7 @@
     "outDir": "./dist/",
     "noImplicitAny": true,
     "module": "ESNext",
-    "target": "es5",
+    "target": "ES6",
     "strictNullChecks": true,
     "jsx": "react-jsx",
     "allowJs": true,
@@ -19,5 +19,6 @@
     "compilerOptions": {
       "module": "CommonJS"
     }
-  }
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
 }

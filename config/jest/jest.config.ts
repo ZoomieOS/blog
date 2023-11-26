@@ -7,27 +7,32 @@ import type { Config } from 'jest'
 
 const config: Config = {
   clearMocks: true,
+  testEnvironment: 'jsdom',
   coveragePathIgnorePatterns: [
-    '/node_modules/'
-  ],
-  moduleDirectories: [
-    'node_modules'
+    '\\\\node_modules\\\\'
   ],
   moduleFileExtensions: [
     'js',
-    'mjs',
-    'cjs',
     'jsx',
     'ts',
     'tsx',
     'json',
     'node'
   ],
+  moduleDirectories: [
+    'node_modules'
+  ],
   rootDir: '../../',
   testMatch: [
-    '<rootDir>src/**/*(*.)@(spec|test).[tj]s?(x)'
+    '<rootDir>src/**/?(*.)+(spec|test).[jt]s?(x)'
   ],
-  testEnvironment: 'jsdom'
+  modulePaths: [
+    '<rootDir>src'
+  ],
+  moduleNameMapper: {
+    '\\.s?css$': 'identity-obj-proxy'
+  },
+  setupFilesAfterEnv: ['<rootDir>config/jest/setupTests.ts']
 
   // Indicates whether the coverage information should be collected while executing the test
   // collectCoverage: false,
